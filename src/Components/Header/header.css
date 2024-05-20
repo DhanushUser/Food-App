@@ -1,0 +1,13 @@
+
+
+@media (max-width:750px){
+    .header-contents{
+        max-width: 65% !important;
+    }
+    .header-contents p{
+        display:  none !important;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
