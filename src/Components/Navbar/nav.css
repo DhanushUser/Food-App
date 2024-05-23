@@ -9,6 +9,8 @@
 }
 .navbar-menu{
     display: flex;
+    flex-wrap: nowrap;
+    min-width: fit-content;
     list-style: none;
     gap: 20px;
     color: #49557e;
@@ -17,6 +19,8 @@
 .nav-right{
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
+    min-width: fit-content;
     gap: 40px;
 }
 .navbar button{
@@ -62,8 +66,8 @@
         gap: 20px !important;
         font-size: 16px !important;
     }
-    .nav-right img{
-        width: 22px;
+    .nav-right {
+        gap: 17px !important;
     }
     .nav-right button{
         padding: 8px 25px;
@@ -78,9 +82,13 @@
     }
 }
 
-@media (max-width:750px){
+@media (max-width:568px){
     .nav-right{
-        gap: 20px;
+        gap: 20px !important;
+        margin-left: 10px !important;
+    }
+    .nav-right img {
+        width: 17px !important;
     }
 }
 
