@@ -6,7 +6,7 @@ const ExploreMenu = ({category, setCategory}) => {
   return (
     <div className="explore-menu flex flex-col gap-5" id="explore-menu">
       <h1 className="menu-text text-3xl font-[500] text-[#262626]">Explore our menu</h1>
-      <p className="max-w-[60%] text-[#808080]">
+      <p className="lg:max-w-[60%] text-[#808080]">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid ipsam
         veniam voluptatibus quia exercitationem velit quod quae officia unde,
         suscipit
